@@ -1,0 +1,74 @@
+/* LOGO BLUE*/
+*{
+    background-color: white;
+}
+
+header{
+    background-color: #007bff;
+    height: 5vh;
+    width: 100%;
+}
+
+ul,li,a,i{
+    background-color: transparent;
+}
+
+h1{
+    font-size: 300px;
+}
+
+#logoBlue{
+    font-family: 'Viga', sans-serif;
+    color: white;
+}
+#menufixo{
+    background-color: #007bffa9;
+    padding: 0.9px;
+}
+.container{
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+}
+
+.navbar{
+    padding: 0px;
+}
+
+/* Cor do Link */
+.navbar-light 
+.navbar-nav 
+.nav-link {
+    color: #fff;
+}
+
+.navbar-light 
+.navbar-nav 
+.nav-link:hover{
+    border-bottom: 0.5px solid #007bff;
+    color: #bdbdbd;
+}
+
+/* BUTTOM */
+element.style {
+    background-color:transparent;
+}
+
+.navbar-light 
+.navbar-toggler{
+    color: white;
+    border-color: transparent;
+}
+
+button:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+
+
+@media(max-width : 1000px) {
+
+    #navbarNav ul{
+        height: 93.7vh;
+    }
+
+}
