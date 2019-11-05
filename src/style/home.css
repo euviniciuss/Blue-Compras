@@ -62,13 +62,76 @@ button:focus {
 button.slick-prev{
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
     background-image: url(/img/background/Arrow\ right.png);
+    position: absolute;
+    z-index: 9;
+    top: 36%;
+    left: 10%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(/img/background/Arrow\ right.png);
+    position: absolute;
+    z-index: 9;
+    top: 36%;
+    right: 10%;
+}
+
+/* Tirando a barra de rolagem */
+
+.slick-list{
+    width: 100%;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+
+/* Botões de passagem do slide*/
+
+/* Numero que aparece no botão */
+button,
+textarea{
+  font-size : 0;
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    left: 45%;
 
 }
 
+.slick-dots li{
+    display: inline-block;
+    list-style: none;
+    color: transparent;
+    padding: 5px;
+}
+
+.slick-dots li button{
+    font: none;
+    border: 5px solid white;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+li.slick-active button{
+    background-color: #007bff;
+}
 
 
 @media(max-width : 1000px) {
