@@ -1,2 +1,2 @@
-# Blue-Compras-V2
+# Blue-Compras
 Segunda Versão do Site Blue Compras
